@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    background-color: #162856;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width:100%;
+    height: 70px;
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index:1000;
+    
+    background-color: #0d6efd;
+    
+    
+  }
+  .navbar a{
+    text-decoration: none;
+    padding: 5px 15px;
+    font-size: 18px;
+    color: white;
+  
+  }
+  #logo img{
+    width: 100px;
+    height: 50px;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .navbar{
+      display: flex;
+      align-items: center;
+      justify-content:space-between;
+      width:100%;
+      height: 70px;
+      position:fixed;
+      top: 0;
+      left: 0;
+      z-index:1000;
+      overflow: hidden;
+  
+      background-color: #0d6efd;
+     
+      
+    }
+    .navbar a{
+      text-decoration: none;
+      padding: 5px 15px;
+      font-size: 16px;
+      color: white;
+  
+    
+    }
+    #logo img{
+      width: 80px;
+      height: 50px;
+    }
+    
+  
+  }
+  
+  
+  .navbar a:hover {
+    color: #ffffff; 
+    transform: scaleX(1.05);
+    transition: all 0.5s;
+    border-bottom: 3px solid white;
+    font-size: 17px;
+  }
+  
+.box{
+    margin-top: 20px;
+    border: 2px solid black;
+    width: 90%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 30px;
+    font-family: 'Akshar';
+}
+.box .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    height: 140px;
+}
+
+.yellow{
+    background-color: rgb(235, 235, 55);
+    color: #fff;
+}
+.delhi{
+    background-color: #DC5034;
+    color: #fff;
+}
+.gujarat{
+    background-color: #039be5;
+    color: #fff;
+}
+.gujarat img{
+    border-radius: 50%;
+}
+.rcb{
+    background-color: red;
+    color: #fff;
+}
+.kkr{
+    background-color: rgb(44, 28, 104);
+    color: #fff;
+}
+.lsg{
+    background-color: #fff;
+    color: black;
+}
+.logo img{
+    width: 140px;
+    height: 140px;
+}
+.rr{
+    background-color: #0d6efd;
+    color: #fff;
+}
+.rr img{
+    border-radius: 50%;
+}
+.srh{
+    background-color: rgb(255, 115, 0);
+    color: #fff;
+}
+.mi{
+    background-color: #0d6efd;
+    color: #fff;
+}
+.pbks{
+    background-color: rgb(195, 58, 58);
+    color: #fff;
+}
+ /*    footer start */
+ footer{
+    width: 100%;
+    background-color: #0d6efd;
+    height: 250px;
+    border-top-right-radius: 50%;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    
+  }
+  footer div{
+    display: block;
+    flex-basis: 12%;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+  footer div:first-child{
+    margin-left:15%;
+  }
+  footer div p{
+    color:black;
+    font-size: 20px;
+    border-bottom: 2px solid white;
+    max-width: 110px;
+    
+  }
+  footer div a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding: 4px 4px;
+    
+  }
+  .followus .followussub{
+    display: flex;
+  }
+  .followussub i{
+    font-size: 25px;
+    padding: 5px;
+    color: white;
+  }
+  footer div a:hover{
+    transform: scale(1.05);
+    
+  }
+
+
+.ofpatnerssub1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.ofpatnerssub1 img{
+    max-width: 250px;
+    max-height: 250px;
+    padding: 10px 30px;
+}
+.ofpatnerssub2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ofpatnerssub2 img{
+    max-width: 250px;
+    max-height: 230px;
+    padding: 10px 30px;
+}
+h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+@media only screen and (max-width: 900px) {
+    footer div p{
+        color:black;
+        font-size: 19px;
+        border-bottom: 2px solid white;
+        max-width: 110px;
+        
+      }
+      footer div a{
+        display: block;
+        text-decoration: none;
+        color: white;
+        font-size: 13px;
+        padding: 4px 4px;
+        
+      }
+      .followussub i{
+        font-size: 21px;
+        padding: 4px;
+        color: white;
+      }
+      footer div{
+        display: block;
+        flex-basis: 10%;
+        margin-left: 3%;
+        margin-top: 1%;
+      }
+      footer div:first-child{
+        margin-left:10%;
+      }
+      
+}
+@media only screen and (max-width: 700px){
+    footer div:first-child{
+        margin-left:5%;
+      }
+
+}
+@media only screen and (max-width: 1050px){
+    .ofpatnerssub1 img{
+        max-width: 175px;
+        max-height: 175px;
+        padding: 8px 20px;
+    }
+      .ofpatnerssub2 img{
+        max-width: 175px;
+        max-height: 175px;
+        padding: 8px 20px;
+    }
+
+}
+@media only screen and (max-width: 600px){
+    .ofpatnerssub1 img{
+        max-width: 125px;
+        max-height: 125px;
+        padding: 4px 13px;
+    }
+      .ofpatnerssub2 img{
+        max-width: 125px;
+        max-height: 125px;
+        padding: 4px 13px;
+    }
+
+}
+  
+/*footer end */
